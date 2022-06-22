@@ -6,7 +6,7 @@ const Add = () => {
     const [data, setData] = useState()
     const [tododata, setTododata] = useState()
     const [todo, setTodo] = useState()
-    const [msg, setMsg] = useState("hii")
+    const [msg, setMsg] = useState("")
     const list = localStorage.getItem("todolist")
     const listdata = JSON.parse(list)
 
